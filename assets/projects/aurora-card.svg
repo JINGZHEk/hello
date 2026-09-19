@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="暗夜极光 AuroraGuard 端云双重零样本算力漏斗三层架构">
+  <title>暗夜极光 AuroraGuard 三层架构</title>
+  <desc>三层架构：边缘感知层用 APG 夜视增强与 YOLO 模型物理拦截无效空镜头，云端认知层用 VLM 视觉大模型与 LightRAG 知识图谱消除决策幻觉，前端交互层提供自然语言交互的全息指挥大屏。</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1B33"/>
+      <stop offset="0.55" stop-color="#123A6B"/>
+      <stop offset="1" stop-color="#0E2A50"/>
+    </linearGradient>
+    <linearGradient id="rule3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#56D4DD"/>
+      <stop offset="1" stop-color="#56D4DD" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#56D4DD" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#56D4DD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="440" fill="url(#bg3)"/>
+  <rect x="0" y="0" width="6" height="440" fill="#56D4DD"/>
+  <circle cx="1090" cy="440" r="250" fill="url(#glow3)"/>
+
+  <text x="60" y="58" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">暗夜极光 AuroraGuard</text>
+  <text x="60" y="84" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#7FB2E5">赋能城市微观治理的零样本安防认知底座 ｜ 端云双重零样本算力漏斗架构</text>
+  <rect x="60" y="98" width="380" height="2" rx="1" fill="url(#rule3)"/>
+
+  <g>
+    <rect x="60" y="118" width="1080" height="70" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#56D4DD" stroke-opacity="0.35" stroke-width="0.5"/>
+    <rect x="60" y="118" width="6" height="70" rx="3" fill="#56D4DD"/>
+    <text x="92" y="146" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">边缘感知层</text>
+    <text x="92" y="168" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#8FB8E0">自研 APG 夜视增强算法 + YOLO 边缘剪枝量化　0.1Lux 极暗环境 · 30FPS · 30ms 延迟</text>
+    <text x="1120" y="153" text-anchor="end" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="14" font-weight="500" fill="#56D4DD">物理拦截 99% 空镜头</text>
+  </g>
+
+  <g>
+    <rect x="60" y="200" width="1080" height="70" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#5AA9F0" stroke-opacity="0.35" stroke-width="0.5"/>
+    <rect x="60" y="200" width="6" height="70" rx="3" fill="#5AA9F0"/>
+    <text x="92" y="228" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">云端认知层</text>
+    <text x="92" y="250" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#8FB8E0">VLM 视觉大模型 + LightRAG 知识图谱　把本地物业安保法规转为结构化约束，消除决策幻觉</text>
+    <text x="1120" y="235" text-anchor="end" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="14" font-weight="500" fill="#7FB2E5">研判准确率 91%+</text>
+  </g>
+
+  <g>
+    <rect x="60" y="282" width="1080" height="70" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#AFA9EC" stroke-opacity="0.35" stroke-width="0.5"/>
+    <rect x="60" y="282" width="6" height="70" rx="3" fill="#AFA9EC"/>
+    <text x="92" y="310" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">前端交互层</text>
+    <text x="92" y="332" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#8FB8E0">自然语言交互的全息指挥大屏　免翻进度条，秒级寻人寻物；端侧硬脱敏，数据可用不可见</text>
+    <text x="1120" y="317" text-anchor="end" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="14" font-weight="500" fill="#C6C1F5">零样本配置规则</text>
+  </g>
+
+  <g>
+    <rect x="60" y="372" width="250" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="0.5"/>
+    <text x="185" y="391" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#B9D4F2">节省 90%+ 存储与算力</text>
+  </g>
+  <g>
+    <rect x="330" y="372" width="250" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="0.5"/>
+    <text x="455" y="391" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#B9D4F2">误报率压降 900 倍</text>
+  </g>
+  <g>
+    <rect x="600" y="372" width="250" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="0.5"/>
+    <text x="725" y="391" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#B9D4F2">单台硬件 1299 元</text>
+  </g>
+  <g>
+    <rect x="870" y="372" width="250" height="38" rx="8" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="0.5"/>
+    <text x="995" y="391" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#B9D4F2">SaaS 399 元 / 路 / 年</text>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="JINGZHEk 太原理工大学软件学院 2024 级 软件学院创新实验室 AI 方向负责人">
+  <title>JINGZHEk · 太原理工大学软件学院 · 创新实验室 AI 方向负责人</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1B33"/>
+      <stop offset="0.55" stop-color="#123A6B"/>
+      <stop offset="1" stop-color="#0E2A50"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F81F7"/>
+      <stop offset="1" stop-color="#56D4DD"/>
+    </linearGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F81F7"/>
+      <stop offset="1" stop-color="#2F81F7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3E8EF7" stop-opacity="0.42"/>
+      <stop offset="0.6" stop-color="#3E8EF7" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#3E8EF7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#56D4DD" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#56D4DD" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="300" fill="url(#bg)"/>
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+
+  <circle cx="1090" cy="20" r="260" fill="url(#glowA)"/>
+  <circle cx="880" cy="320" r="230" fill="url(#glowB)"/>
+
+  <g stroke="#5AA9F0" stroke-opacity="0.20" stroke-width="1">
+    <line x1="855" y1="70" x2="965" y2="95"/>
+    <line x1="855" y1="70" x2="965" y2="150"/>
+    <line x1="855" y1="70" x2="965" y2="205"/>
+    <line x1="855" y1="120" x2="965" y2="95"/>
+    <line x1="855" y1="120" x2="965" y2="150"/>
+    <line x1="855" y1="120" x2="965" y2="205"/>
+    <line x1="855" y1="170" x2="965" y2="95"/>
+    <line x1="855" y1="170" x2="965" y2="150"/>
+    <line x1="855" y1="170" x2="965" y2="205"/>
+    <line x1="855" y1="220" x2="965" y2="95"/>
+    <line x1="855" y1="220" x2="965" y2="150"/>
+    <line x1="855" y1="220" x2="965" y2="205"/>
+    <line x1="965" y1="95" x2="1075" y2="122"/>
+    <line x1="965" y1="95" x2="1075" y2="178"/>
+    <line x1="965" y1="150" x2="1075" y2="122"/>
+    <line x1="965" y1="150" x2="1075" y2="178"/>
+    <line x1="965" y1="205" x2="1075" y2="122"/>
+    <line x1="965" y1="205" x2="1075" y2="178"/>
+  </g>
+
+  <g fill="#5AA9F0">
+    <circle cx="855" cy="70" r="6"/>
+    <circle cx="855" cy="120" r="6"/>
+    <circle cx="855" cy="220" r="6"/>
+    <circle cx="965" cy="95" r="6"/>
+    <circle cx="965" cy="205" r="6"/>
+    <circle cx="1075" cy="178" r="7"/>
+  </g>
+  <g fill="#56D4DD">
+    <circle cx="855" cy="170" r="6"/>
+    <circle cx="965" cy="150" r="7"/>
+    <circle cx="1075" cy="122" r="8"/>
+  </g>
+  <circle cx="1075" cy="122" r="15" fill="none" stroke="#56D4DD" stroke-opacity="0.45" stroke-width="1"/>
+  <circle cx="965" cy="150" r="13" fill="none" stroke="#56D4DD" stroke-opacity="0.28" stroke-width="1"/>
+
+  <text x="72" y="74" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="3" fill="#6FA8DC">TAIYUAN UNIVERSITY OF TECHNOLOGY</text>
+  <text x="70" y="132" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="1" fill="#FFFFFF">JINGZHEk</text>
+  <text x="72" y="178" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="500" fill="#B9D4F2">太原理工大学 · 软件学院 · 2024 级</text>
+  <text x="72" y="214" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-size="19" fill="#7FB2E5">软件学院创新实验室 · AI 方向负责人</text>
+
+  <rect x="72" y="240" width="360" height="3" rx="1.5" fill="url(#rule)"/>
+</svg>

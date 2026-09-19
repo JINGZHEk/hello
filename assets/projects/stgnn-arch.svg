@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450" role="img" aria-label="车路协同时空图网络 ST-GNN 五层处理流水线与遮挡推理示意">
+  <title>车路协同时空图网络 ST-GNN 技术架构</title>
+  <desc>五层流水线：数据采集、目标感知、行为分析、智能推理、协同决策。下方示意将交通场景建模为动态图网络，并对进入遮挡区域的目标推理未来 2 至 5 秒轨迹。</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1B33"/>
+      <stop offset="0.55" stop-color="#123A6B"/>
+      <stop offset="1" stop-color="#0E2A50"/>
+    </linearGradient>
+    <linearGradient id="rule2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2F81F7"/>
+      <stop offset="1" stop-color="#2F81F7" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3E8EF7" stop-opacity="0.30"/>
+      <stop offset="1" stop-color="#3E8EF7" stop-opacity="0"/>
+    </radialGradient>
+    <marker id="ah2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="450" fill="url(#bg2)"/>
+  <rect x="0" y="0" width="6" height="450" fill="#2F81F7"/>
+  <circle cx="1120" cy="30" r="240" fill="url(#glow2)"/>
+
+  <text x="60" y="58" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#FFFFFF">车路协同时空图网络 · ST-GNN</text>
+  <text x="60" y="84" font-family="'PingFang SC','Microsoft YaHei','Helvetica Neue',Arial,sans-serif" font-size="14" fill="#7FB2E5">多智能体协同遮挡感知技术底座 ｜ 把交通场景建模成动态图，用推理补上视觉的盲区</text>
+  <rect x="60" y="98" width="380" height="2" rx="1" fill="url(#rule2)"/>
+
+  <g>
+    <rect x="63" y="118" width="186" height="76" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#5AA9F0" stroke-opacity="0.35" stroke-width="0.5"/>
+    <text x="156" y="146" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">数据采集层</text>
+    <text x="156" y="170" text-anchor="middle" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8FB8E0">摄像头 · RSU · 边缘终端</text>
+  </g>
+  <line x1="249" y1="156" x2="283" y2="156" stroke="#5AA9F0" stroke-opacity="0.7" stroke-width="1.5" fill="none" marker-end="url(#ah2)"/>
+  <g>
+    <rect x="285" y="118" width="186" height="76" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#5AA9F0" stroke-opacity="0.35" stroke-width="0.5"/>
+    <text x="378" y="146" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">目标感知层</text>
+    <text x="378" y="170" text-anchor="middle" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8FB8E0">YOLOv8 目标检测</text>
+  </g>
+  <line x1="471" y1="156" x2="505" y2="156" stroke="#5AA9F0" stroke-opacity="0.7" stroke-width="1.5" fill="none" marker-end="url(#ah2)"/>
+  <g>
+    <rect x="507" y="118" width="186" height="76" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#5AA9F0" stroke-opacity="0.35" stroke-width="0.5"/>
+    <text x="600" y="146" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">行为分析层</text>
+    <text x="600" y="170" text-anchor="middle" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8FB8E0">DeepSORT 轨迹跟踪</text>
+  </g>
+  <line x1="693" y1="156" x2="727" y2="156" stroke="#5AA9F0" stroke-opacity="0.7" stroke-width="1.5" fill="none" marker-end="url(#ah2)"/>
+  <g>
+    <rect x="729" y="118" width="186" height="76" rx="10" fill="#2F81F7" fill-opacity="0.22" stroke="#56D4DD" stroke-width="1"/>
+    <text x="822" y="146" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">智能推理层</text>
+    <text x="822" y="170" text-anchor="middle" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#7FE3EA">ST-GNN 时空图推理</text>
+  </g>
+  <line x1="915" y1="156" x2="949" y2="156" stroke="#5AA9F0" stroke-opacity="0.7" stroke-width="1.5" fill="none" marker-end="url(#ah2)"/>
+  <g>
+    <rect x="951" y="118" width="186" height="76" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#5AA9F0" stroke-opacity="0.35" stroke-width="0.5"/>
+    <text x="1044" y="146" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="15" font-weight="500" fill="#FFFFFF">协同决策层</text>
+    <text x="1044" y="170" text-anchor="middle" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#8FB8E0">车路协同预警 · OBU</text>
+  </g>
+
+  <g stroke="#5AA9F0" stroke-opacity="0.45" stroke-width="1">
+    <line x1="180" y1="255" x2="275" y2="215"/>
+    <line x1="180" y1="255" x2="275" y2="300"/>
+    <line x1="275" y1="215" x2="370" y2="258"/>
+    <line x1="275" y1="300" x2="370" y2="258"/>
+    <line x1="180" y1="255" x2="370" y2="258"/>
+  </g>
+  <g fill="#5AA9F0">
+    <circle cx="180" cy="255" r="15"/>
+    <circle cx="275" cy="215" r="12"/>
+    <circle cx="275" cy="300" r="12"/>
+  </g>
+  <circle cx="370" cy="258" r="14" fill="#56D4DD"/>
+  <text x="180" y="255" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#0A1B33">车</text>
+  <text x="275" y="215" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="11" fill="#0A1B33">人</text>
+  <text x="275" y="300" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="11" fill="#0A1B33">非</text>
+  <text x="275" y="355" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#B9D4F2">图结构建模：节点 = 交通参与者，边 = 交互关系</text>
+
+  <circle cx="760" cy="268" r="78" fill="#56D4DD" fill-opacity="0.08" stroke="#56D4DD" stroke-opacity="0.5" stroke-width="1" stroke-dasharray="6 6"/>
+  <circle cx="760" cy="268" r="14" fill="none" stroke="#7FE3EA" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="760" y="268" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#7FE3EA">遮挡</text>
+
+  <g stroke="#7FE3EA" stroke-opacity="0.75" stroke-width="1.5" stroke-dasharray="5 5" fill="none">
+    <line x1="790" y1="245" x2="880" y2="212" marker-end="url(#ah2)"/>
+    <line x1="838" y1="268" x2="944" y2="268" marker-end="url(#ah2)"/>
+    <line x1="800" y1="300" x2="880" y2="330" marker-end="url(#ah2)"/>
+  </g>
+  <text x="892" y="206" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#7FE3EA">t + 2s</text>
+  <text x="956" y="268" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#7FE3EA">t + 3s</text>
+  <text x="892" y="336" dominant-baseline="central" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#7FE3EA">t + 5s</text>
+
+  <text x="760" y="392" text-anchor="middle" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" fill="#B9D4F2">目标进入遮挡区后，依据历史轨迹与周边交互推理未来位置</text>
+
+  <text x="60" y="424" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="13" font-weight="500" fill="#56D4DD">看得见 → 感知 ｜ 看不见 → 推理</text>
+  <text x="1140" y="424" text-anchor="end" dominant-baseline="central" font-family="'PingFang SC','Microsoft YaHei',Arial,sans-serif" font-size="12" fill="#7FB2E5">单路口成本较传统方案降低 80% 以上</text>
+</svg>
